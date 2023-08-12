@@ -12,9 +12,6 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        val test = com.example.basicscodelab.Test()
-        println(test.test("Hello"))
-
         assertEquals(4, 2 + 2)
     }
 }
